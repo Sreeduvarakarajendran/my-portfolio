@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Tagesschrift&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .primary-btn{
+        @apply bg-[#6c63ff] text-white
+        font-semibold py-3 px-6 rounded-md hover:!scale-110 duration-300;
+    }
+}
+/* --frozen-lake: #97dffcff;
+--soft-periwinkle: #858ae3ff;
+--violet-twilight: #613dc1ff;
+--indigo: #4e148cff;
+--dark-amethyst: #2c0735ff; */
