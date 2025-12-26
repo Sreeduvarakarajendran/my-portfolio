@@ -20,7 +20,7 @@ const Hero = () => {
   
           <div className="flex justify-center md:justify-start">
   <a
-    href="/my-portfolio/resume.pdf"
+    href="./resumeSree.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="px-8 py-4 bg-[#7400b8] text-white font-semibold rounded-lg
